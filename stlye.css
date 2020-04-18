@@ -1,0 +1,83 @@
+html, body{
+    height: 100%;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.landing{
+    height: 100%;
+}
+
+#logo > h3{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#red{
+    color: red;
+    position: relative;
+    left: -10px;
+}
+
+.main-con{
+    padding-top: 12em !important;
+    height: 100%;
+}
+
+div.main-con{
+    box-shadow: inset 2000px 0 0 0 rgba(0, 0, 0, 0.829);
+    padding-top: 7em;
+    padding-bottom: 8em;
+    max-height: 100%;
+    color: rgba(255, 255, 255, 0.3)    ;
+}
+
+#formPlace{
+    padding-left: 30px;
+}
+
+.row{
+    background-color: #000;
+}
+
+
+
+#info{
+    margin-top: 175px !important;
+    color: #fff;
+    padding-left: 30px;
+}
+.container-fluid, .container-lg, .container-md, .container-sm, .container-xl{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.main-con{
+  
+    background: url(biz.jpg) center no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.bg-black{
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px 10px 20px;
+    font-weight: 200;
+}
+
+
+#submit{
+    background-color: red;
+    border: 1px solid red;
+    color: #fff;
+}
+
+input:focus{
+    outline: none !important;
+}
+
+*:focus {
+    outline: none;
+}
