@@ -1,4 +1,5 @@
 window.addEventListener( "load", function () {
+  var results = document.getElementById("result")
     function sendData() {
       const XHR = new XMLHttpRequest();
   
@@ -7,7 +8,7 @@ window.addEventListener( "load", function () {
   
       // Define what happens on successful data submission
       XHR.addEventListener( "load", function(event) {
-        alert( event.target.responseText );
+        results.textContent = "Thanks! You have successfuly been added to tour mailing list"
       } );
   
       // Define what happens in case of error

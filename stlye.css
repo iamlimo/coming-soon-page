@@ -81,3 +81,12 @@ input:focus{
 *:focus {
     outline: none;
 }
+
+#result{
+    color: #fff !important;
+}
+
+#logo{
+    padding-left: 10px;
+    padding-top: 10px;
+}
