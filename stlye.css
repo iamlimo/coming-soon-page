@@ -1,6 +1,11 @@
 html, body{
     height: 100%;
     font-family: 'Noto Sans', sans-serif;
+    color: #111;
+}
+
+#form-place{
+    padding: 7em 5em 5em 5em;
 }
 
 .landing{
@@ -8,7 +13,7 @@ html, body{
 }
 
 #logo > h3{
-    color: #fff;
+    color: #111;
     font-size: 25px;
     font-weight: 600;
 }
@@ -25,8 +30,8 @@ html, body{
 }
 
 div.main-con{
-    box-shadow: inset 2000px 0 0 0 rgba(0, 0, 0, 0.829);
-    padding-top: 7em;
+    /* box-shadow: inset 2000px 0 0 0 rgba(0, 0, 0, 0.829); */
+    /* padding-top: 7em; */
     padding-bottom: 8em;
     max-height: 100%;
     color: rgba(255, 255, 255, 0.3)    ;
@@ -37,7 +42,7 @@ div.main-con{
 }
 
 .row{
-    background-color: #000;
+    background-color: #fff;
 }
 
 
@@ -54,18 +59,12 @@ div.main-con{
 
 .main-con{
   
-    background: url(biz.jpg) center no-repeat;
+    background: url(Mp.jpeg) center no-repeat;
     background-size: cover;
     background-position: center;
     
 }
 
-.bg-black{
-    background-color: #000;
-    color: #fff;
-    padding: 10px 20px 10px 20px;
-    font-weight: 200;
-}
 
 
 #submit{
@@ -74,16 +73,17 @@ div.main-con{
     color: #fff;
 }
 
+.form-control-sm {
+    background-color: #F1F3F4;
+}
+
 input:focus{
     outline: none !important;
 }
-
-*:focus {
-    outline: none;
-}
+textarea, select, input, button { outline: none; }
 
 #result{
-    color: #fff !important;
+    /* color: green !important; */
 }
 
 #logo{
@@ -95,4 +95,51 @@ input:focus{
     color: #fff;
     font-size: 25px;
     font-weight: 600;
+}
+
+
+body{
+	/* text-align: center;
+	background: #00ECB9; */
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+h1{
+  color: #111;
+  font-weight: 100;
+  font-size: 40px;
+  margin: 40px 0px 20px;
+}
+
+#clockdiv{
+    font-family: sans-serif;
+    text-align: center;
+	color: #fff;
+	/* display: inline-block; */
+	font-weight: 100;
+    text-align: center;
+    margin-top: 70px;
+	font-size: 30px;
+}
+
+#clockdiv > div{
+    text-align: center;
+	padding: 10px;
+	border-radius: 3px;
+	background: rgba(44, 44, 44, 0.479);
+    display: inline-block;
+    width: 150px;
+}
+
+#clockdiv div > span{
+	padding: 15px;
+	border-radius: 3px;
+	background: red;
+	display: inline-block;
+}
+
+.smalltext{
+	padding-top: 5px;
+	font-size: 16px;
 }
