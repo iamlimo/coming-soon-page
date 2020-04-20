@@ -152,3 +152,9 @@ a > .fa{
     margin-right: 15px;
     font-weight: 400;
 }
+
+@media only screen and (max-width: 768px) {
+    #form-place{
+        padding: 0;
+    }
+  }
