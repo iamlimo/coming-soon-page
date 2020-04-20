@@ -5,7 +5,7 @@ html, body{
 }
 
 #form-place{
-    padding: 7em 5em 5em 5em;
+    padding: 7em 10em 5em 7em;
 }
 
 .landing{
@@ -77,10 +77,8 @@ div.main-con{
     background-color: #F1F3F4;
 }
 
-input:focus{
-    outline: none !important;
-}
-textarea, select, input, button { outline: none; }
+
+textarea, select, input, button { outline: none !important;  }
 
 #result{
     /* color: green !important; */
@@ -108,7 +106,7 @@ body{
 h1{
   color: #111;
   font-weight: 100;
-  font-size: 40px;
+  font-size: 47px;
   margin: 40px 0px 20px;
 }
 
@@ -142,4 +140,15 @@ h1{
 .smalltext{
 	padding-top: 5px;
 	font-size: 16px;
+}
+
+
+#social{
+    padding-left: 120px !important;
+}
+
+a > .fa{
+    font-size: 20px;
+    margin-right: 15px;
+    font-weight: 400;
 }

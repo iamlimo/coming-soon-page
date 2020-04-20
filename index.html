@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="stlye.css">
     <script src="index.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans:700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Losode B2B</title>
 </head>
 <body>
@@ -49,8 +50,15 @@
             <span class="bg-success text-white" id="result"></span>
           </form>
         </div>
-        <div id="social">
-          
+        <div id="social" class="">
+          <p class="list-inline-item">Stay in touch:</p>
+          <ul class="list-inline">
+            <li class="list-inline-item"><a href="https://web.facebook.com/losode1" target="_blank" style="color: #3b5998;"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+            <li class="list-inline-item"><a href="https://twitter.com/thisislosode?lang=en" style="color: 1da1f2;" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+            <li class="list-inline-item"><a href="https://www.instagram.com/thisislosode" target="_blank" style="color: #fd1d1d ;"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            <li class="list-inline-item"><a href="https://www.linkedin.com/company/losode/" target="_blank" style="color: #00a0dc ;"><i class="fa fa-linkedin-square" aria-hidden="true"></i>
+            </a></li>
+          </ul>
         </div>
       </div>
       <div class="col-md-6 main-con">
@@ -137,7 +145,7 @@ function initializeClock(id, endtime) {
   var timeinterval = setInterval(updateClock, 1000);
 }
 
-var deadline = new Date(Date.parse(new Date()) + 15 * 24 * 60 * 60 * 1000);
+var deadline = new Date(Date.parse(new Date()) + 90 * 24 * 60 * 60 * 1000);
 initializeClock('clockdiv', deadline);
 </script>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
