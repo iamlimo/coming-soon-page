@@ -4,6 +4,9 @@ html, body{
     color: #111;
 }
 
+p{
+    color: #6b6262;
+}
 #form-place{
     padding: 7em 10em 5em 7em;
 }
@@ -74,18 +77,37 @@ div.main-con{
 }
 
 .form-control-sm {
+    /* background-color: #F1F3F4; */
+    -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+    border: 1px solid #0000002;
     background-color: #F1F3F4;
+    border-radius: 20px;
 }
 
+textarea, select, input, button { outline: none; }
 
-textarea, select, input, button { outline: none !important;  }
+::placeholder{
+    font-size: 12px;
+}
+
+.form-control-sm:focus, textarea:focus{
+    box-shadow: 0 0 5px rgba(255, 0, 0, 0.342);
+}
+
+.form-control-sm:focus, textarea:focus{
+    outline: none !important;
+}
+
 
 #result{
     /* color: green !important; */
 }
 
 #logo{
-    padding-left: 10px;
+    padding-left: 5px;
     padding-top: 10px;
 }
 
@@ -117,7 +139,7 @@ h1{
 	/* display: inline-block; */
 	font-weight: 100;
     text-align: center;
-    margin-top: 70px;
+    margin-top: 100px;
 	font-size: 30px;
 }
 
@@ -145,6 +167,8 @@ h1{
 
 #social{
     padding-left: 120px !important;
+    position: relative;
+    top: 55px;
 }
 
 a > .fa{
