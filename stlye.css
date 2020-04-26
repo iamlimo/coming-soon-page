@@ -8,7 +8,7 @@ p{
     color: #6b6262;
 }
 #form-place{
-    padding: 7em 10em 5em 7em;
+    padding: 7em 5em 5em 7em;
 }
 
 .landing{
@@ -139,7 +139,7 @@ h1{
 	/* display: inline-block; */
 	font-weight: 100;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 200px;
 	font-size: 30px;
 }
 
@@ -172,9 +172,10 @@ h1{
 }
 
 a > .fa{
-    font-size: 20px;
+    font-size: 18px;
     margin-right: 15px;
     font-weight: 400;
+    color:#000;
 }
 
 @media only screen and (max-width: 768px) {
@@ -186,4 +187,10 @@ a > .fa{
         text-align: center;
         padding-left: 0 !important;
     }
+  }
+
+  a{
+      color: red;
+      font-weight: 400;
+      text-decoration: underline;
   }
