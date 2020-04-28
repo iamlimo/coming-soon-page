@@ -41,7 +41,7 @@ div.main-con{
 }
 
 #formPlace{
-    padding-left: 30px;
+    padding-left: 10px;
 }
 
 .row{
@@ -166,9 +166,9 @@ h1{
 
 
 #social{
-    padding-left: 120px !important;
+    padding-left: 10px !important;
     position: relative;
-    top: 55px;
+    top: 30px;
 }
 
 a > .fa{
